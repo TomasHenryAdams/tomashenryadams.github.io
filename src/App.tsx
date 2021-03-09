@@ -3,7 +3,7 @@ import { CssBaseline, useMediaQuery } from "@material-ui/core";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 
 import "./App.css";
-import Routing from './Routing';
+import Routing from "./Routing";
 
 function App() {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
@@ -27,6 +27,13 @@ function App() {
       <CssBaseline />
       <Routing />
     </ThemeProvider>
+    // <div>
+    //   {loading ? <h2>Loading</h2> : (
+    //     data.projectCollection.items.map((project: { title: string; image: { url: string; }; link: string; }) => (
+    //       <h3>{project.title} {project.image.url} {project.link}</h3>
+    //     ))
+    //   )}
+    // </div>
   );
 }
 
