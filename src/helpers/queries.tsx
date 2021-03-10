@@ -59,6 +59,9 @@ export const GetAbout = gql`
         text {
           json
         }
+        image {
+          url
+        }
       }
     }
   }
