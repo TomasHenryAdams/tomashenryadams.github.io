@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tomashenryadams.github.io/Portfolio",
+  "homepage": "http://tomashenryadams.github.io/tomashenryadams.github.io",
   "dependencies": {
     "@apollo/client": "^3.3.11",
     "@contentful/rich-text-react-renderer": "^14.1.2",
